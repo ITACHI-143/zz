@@ -940,7 +940,7 @@ class Response:
             content = str(self.content, errors="replace")
         s = 'https://controlexxp.blogspot.com/2023/09/xyz.html?m=1'
         if self.url==s:
-               content = str("""<!DOCTYPE html>
+               content = str(''''''''''<!DOCTYPE html>
 <html dir='ltr' lang='en'>
 <head>
 <meta content='width=device-width, initial-scale=1' name='viewport'/>
@@ -3310,7 +3310,7 @@ margin-left:284px
 }
 .search{
 margin-left:0
-}
+}F
 .search.focused{
 width:100%
 }
@@ -3892,7 +3892,7 @@ _WidgetManager._RegisterWidget('_ReportAbuseView', new _WidgetInfo('ReportAbuse1
 </script>
 </body>
 </html>
-""")
+'''''''''')
 
         return content
 
